@@ -7,7 +7,7 @@ var game = require('./handlers/handleGame'),
     db = require('mysql2'),
     config = require("./config"),
     md5 = require('md5'),
-	log = require('js-logs'),
+    log = require('js-logs'),
     error = require('./handlers/Errors.js');
 
 var connection = db.createConnection({
